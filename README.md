@@ -5,4 +5,4 @@
 
 3.There you can code and help me
 
-Note: This is for Developers
+Note: This is for Developers urg utaknya gila baie sja paham ni, klau kamu nda paham you're Good and jgn di download
