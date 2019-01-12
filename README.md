@@ -3,7 +3,7 @@
 
 2.Open POA Trading account (beta) by aiman.sln using Visual Basic
 
-3.In Visual basic, click file > open file and open Form1.Designer.vb then click edit > open code and designer
+3.In Visual basic, click file > open file and open Form1.Designer.vb after that click edit > open code and designer
 
 4.There you can code and help me
 
