@@ -117,4 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Label70.Text" xml:space="preserve">
+    <value>How to use
+1.Make sure your adjustments is correctly adjusted
+2.Leave the boxes blank if you dont have the particulars in your question
+
+3.Please send Feedback so i can improve my app
+4.Why english? antah melayu tu mcm lain rasanya
+5.And Siapa handal english Please Correct my Grammar
+</value>
+  </data>
 </root>
