@@ -73,6 +73,8 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.Label69 = New System.Windows.Forms.Label()
         Me.Label68 = New System.Windows.Forms.Label()
         Me.Label67 = New System.Windows.Forms.Label()
@@ -138,6 +140,10 @@ Partial Class Form1
         Me.Label44 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label71 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label70 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
@@ -148,19 +154,13 @@ Partial Class Form1
         Me.Label28 = New System.Windows.Forms.Label()
         Me.TextBox47 = New System.Windows.Forms.TextBox()
         Me.TextBox48 = New System.Windows.Forms.TextBox()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label70 = New System.Windows.Forms.Label()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label71 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.TabPage4.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -704,6 +704,24 @@ Partial Class Form1
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(497, 699)
         Me.Panel1.TabIndex = 17
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(108, 668)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(68, 23)
+        Me.Button4.TabIndex = 64
+        Me.Button4.Text = "Clear all"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(70, 668)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(34, 23)
+        Me.Button3.TabIndex = 63
+        Me.Button3.Text = "="
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'Label69
         '
@@ -1250,6 +1268,44 @@ Partial Class Form1
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "About"
         '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.Label71)
+        Me.GroupBox2.Location = New System.Drawing.Point(17, 249)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(494, 173)
+        Me.GroupBox2.TabIndex = 9
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "ChangeLog"
+        '
+        'Label71
+        '
+        Me.Label71.AutoSize = True
+        Me.Label71.Location = New System.Drawing.Point(6, 16)
+        Me.Label71.Name = "Label71"
+        Me.Label71.Size = New System.Drawing.Size(242, 156)
+        Me.Label71.TabIndex = 0
+        Me.Label71.Text = resources.GetString("Label71.Text")
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Label70)
+        Me.GroupBox1.Location = New System.Drawing.Point(17, 118)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(494, 125)
+        Me.GroupBox1.TabIndex = 8
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Note"
+        '
+        'Label70
+        '
+        Me.Label70.AutoSize = True
+        Me.Label70.Location = New System.Drawing.Point(6, 16)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(349, 91)
+        Me.Label70.TabIndex = 0
+        Me.Label70.Text = resources.GetString("Label70.Text")
+        '
         'Label35
         '
         Me.Label35.AutoSize = True
@@ -1336,64 +1392,6 @@ Partial Class Form1
         Me.TextBox48.Size = New System.Drawing.Size(100, 20)
         Me.TextBox48.TabIndex = 48
         '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(70, 668)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(34, 23)
-        Me.Button3.TabIndex = 63
-        Me.Button3.Text = "="
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(108, 668)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(68, 23)
-        Me.Button4.TabIndex = 64
-        Me.Button4.Text = "Clear all"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.Label70)
-        Me.GroupBox1.Location = New System.Drawing.Point(17, 118)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(494, 125)
-        Me.GroupBox1.TabIndex = 8
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Note"
-        '
-        'Label70
-        '
-        Me.Label70.AutoSize = True
-        Me.Label70.Location = New System.Drawing.Point(6, 16)
-        Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(349, 91)
-        Me.Label70.TabIndex = 0
-        Me.Label70.Text = resources.GetString("Label70.Text")
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.Label71)
-        Me.GroupBox2.Location = New System.Drawing.Point(17, 249)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(494, 173)
-        Me.GroupBox2.TabIndex = 9
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "ChangeLog"
-        '
-        'Label71
-        '
-        Me.Label71.AutoSize = True
-        Me.Label71.Location = New System.Drawing.Point(6, 25)
-        Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(242, 143)
-        Me.Label71.TabIndex = 0
-        Me.Label71.Text = "v 0.2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1.POA Trading name changed to 'POA Calculator'" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2.Added a few particular i" & _
-    "n Trading" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "3.Added Tabs" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "4.Added Profit and Loss and About" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v 0.1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1.Added Tra" & _
-    "ding" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v 0.0" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1.Created POA Trading"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1419,10 +1417,10 @@ Partial Class Form1
         Me.Panel1.PerformLayout()
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage4.PerformLayout()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
