@@ -117,20 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Label71.Text" xml:space="preserve">
-    <value>v 0.2
-1.POA Trading name changed to 'POA Calculator'
-2.Added a few particular in Trading
-3.Added Tabs
-4.Added Profit and Loss and About
-5.'Clear' button is not implemented yet
-
-v 0.1
-1.Added Trading
-
-v 0.0
-1.Created POA Trading</value>
-  </data>
   <data name="Label70.Text" xml:space="preserve">
     <value>How to use
 1.Make sure your adjustments is correctly adjusted
