@@ -154,13 +154,18 @@ Partial Class Form1
         Me.Label28 = New System.Windows.Forms.Label()
         Me.TextBox47 = New System.Windows.Forms.TextBox()
         Me.TextBox48 = New System.Windows.Forms.TextBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label72 = New System.Windows.Forms.Label()
+        Me.Label73 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -1241,7 +1246,9 @@ Partial Class Form1
         '
         'TabPage3
         '
+        Me.TabPage3.AutoScroll = True
         Me.TabPage3.BackColor = System.Drawing.SystemColors.Control
+        Me.TabPage3.Controls.Add(Me.Panel2)
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
@@ -1392,6 +1399,34 @@ Partial Class Form1
         Me.TextBox48.Size = New System.Drawing.Size(100, 20)
         Me.TextBox48.TabIndex = 48
         '
+        'Panel2
+        '
+        Me.Panel2.Controls.Add(Me.Label73)
+        Me.Panel2.Controls.Add(Me.Label72)
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(497, 422)
+        Me.Panel2.TabIndex = 0
+        '
+        'Label72
+        '
+        Me.Label72.AutoSize = True
+        Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label72.Location = New System.Drawing.Point(8, 16)
+        Me.Label72.Name = "Label72"
+        Me.Label72.Size = New System.Drawing.Size(193, 13)
+        Me.Label72.TabIndex = 1
+        Me.Label72.Text = "Fixed Assets/Non-Current Assets"
+        '
+        'Label73
+        '
+        Me.Label73.AutoSize = True
+        Me.Label73.Location = New System.Drawing.Point(14, 41)
+        Me.Label73.Name = "Label73"
+        Me.Label73.Size = New System.Drawing.Size(45, 13)
+        Me.Label73.TabIndex = 2
+        Me.Label73.Text = "Label73"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1415,12 +1450,15 @@ Partial Class Form1
         Me.TabPage2.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.TabPage3.ResumeLayout(False)
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage4.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1556,5 +1594,7 @@ Partial Class Form1
     Friend WithEvents Label71 As System.Windows.Forms.Label
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents Label70 As System.Windows.Forms.Label
-
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Label73 As Label
+    Friend WithEvents Label72 As Label
 End Class
