@@ -229,4 +229,77 @@
     Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
         Label69.Text = "$" & Val(TextBox48.Text) - Val(TextBox33.Text) - Val(TextBox32.Text) - Val(TextBox31.Text) - Val(TextBox30.Text) - Val(TextBox29.Text) - Val(TextBox28.Text) - Val(TextBox39.Text) - Val(TextBox38.Text) - Val(TextBox37.Text) - Val(TextBox36.Text) - Val(TextBox35.Text) - Val(TextBox34.Text) - Val(TextBox40.Text) - Val(TextBox41.Text) - Val(TextBox42.Text) - Val(TextBox43.Text) - Val(TextBox44.Text) - Val(TextBox45.Text) - Val(TextBox46.Text)
     End Sub
+
+    Private Sub TextBox49_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox49.TextChanged
+        TextBox53.Text = Val(TextBox49.Text) - Val(TextBox51.Text)
+    End Sub
+
+    Private Sub TextBox50_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox50.TextChanged
+        TextBox54.Text = Val(TextBox50.Text) - Val(TextBox52.Text)
+    End Sub
+
+    Private Sub TextBox51_TextChanged(sender As Object, e As EventArgs) Handles TextBox51.TextChanged
+        TextBox53.Text = Val(TextBox49.Text) - Val(TextBox51.Text)
+    End Sub
+
+    Private Sub TextBox52_TextChanged(sender As Object, e As EventArgs) Handles TextBox52.TextChanged
+        TextBox54.Text = Val(TextBox50.Text) - Val(TextBox52.Text)
+    End Sub
+
+    Private Sub TextBox53_TextChanged(sender As Object, e As EventArgs) Handles TextBox53.TextChanged
+        Label77.Text = "$" & Val(TextBox53.Text) + Val(TextBox54.Text) + Val(TextBox66.Text)
+    End Sub
+
+    Private Sub TextBox54_TextChanged(sender As Object, e As EventArgs) Handles TextBox54.TextChanged
+        Label77.Text = "$" & Val(TextBox53.Text) + Val(TextBox54.Text) + Val(TextBox66.Text)
+    End Sub
+
+    Private Sub TextBox55_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox55.TextChanged
+        Label82.Text = "$" & Val(TextBox55.Text) - Val(TextBox56.Text)
+        TextBox62.Text = Val(TextBox55.Text) - Val(TextBox56.Text)
+        Label88.Text = "$" & Val(TextBox55.Text) - Val(TextBox56.Text)
+    End Sub
+
+    Private Sub TextBox56_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox56.TextChanged
+        Label82.Text = "$" & Val(TextBox55.Text) - Val(TextBox56.Text)
+        TextBox62.Text = Val(TextBox55.Text) - Val(TextBox56.Text)
+        Label88.Text = "$" & Val(TextBox55.Text) - Val(TextBox56.Text)
+    End Sub
+
+    Private Sub TextBox57_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox57.TextChanged
+        TextBox63.Text = Val(TextBox62.Text) + Val(TextBox57.Text) + Val(TextBox58.Text) + Val(TextBox59.Text) + Val(TextBox60.Text) + Val(TextBox61.Text)
+        Label88.Text = "&" & Val(TextBox62.Text) + Val(TextBox57.Text) + Val(TextBox58.Text) + Val(TextBox59.Text) + Val(TextBox60.Text) + Val(TextBox61.Text)
+    End Sub
+
+    Private Sub TextBox58_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox58.TextChanged
+        TextBox63.Text = Val(TextBox62.Text) + Val(TextBox57.Text) + Val(TextBox58.Text) + Val(TextBox59.Text) + Val(TextBox60.Text) + Val(TextBox61.Text)
+        Label88.Text = "&" & Val(TextBox62.Text) + Val(TextBox57.Text) + Val(TextBox58.Text) + Val(TextBox59.Text) + Val(TextBox60.Text) + Val(TextBox61.Text)
+    End Sub
+
+    Private Sub TextBox59_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox59.TextChanged
+        TextBox63.Text = Val(TextBox62.Text) + Val(TextBox57.Text) + Val(TextBox58.Text) + Val(TextBox59.Text) + Val(TextBox60.Text) + Val(TextBox61.Text)
+        Label88.Text = "&" & Val(TextBox62.Text) + Val(TextBox57.Text) + Val(TextBox58.Text) + Val(TextBox59.Text) + Val(TextBox60.Text) + Val(TextBox61.Text)
+    End Sub
+
+    Private Sub TextBox60_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox60.TextChanged
+        TextBox63.Text = Val(TextBox62.Text) + Val(TextBox57.Text) + Val(TextBox58.Text) + Val(TextBox59.Text) + Val(TextBox60.Text) + Val(TextBox61.Text)
+        Label88.Text = "&" & Val(TextBox62.Text) + Val(TextBox57.Text) + Val(TextBox58.Text) + Val(TextBox59.Text) + Val(TextBox60.Text) + Val(TextBox61.Text)
+    End Sub
+
+    Private Sub TextBox61_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox61.TextChanged
+        TextBox63.Text = Val(TextBox62.Text) + Val(TextBox57.Text) + Val(TextBox58.Text) + Val(TextBox59.Text) + Val(TextBox60.Text) + Val(TextBox61.Text)
+        Label88.Text = "&" & Val(TextBox62.Text) + Val(TextBox57.Text) + Val(TextBox58.Text) + Val(TextBox59.Text) + Val(TextBox60.Text) + Val(TextBox61.Text)
+    End Sub
+
+    Private Sub TextBox64_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox64.TextChanged
+        TextBox66.Text = Val(TextBox64.Text) - Val(TextBox65.Text)
+    End Sub
+
+    Private Sub TextBox65_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox65.TextChanged
+        TextBox66.Text = Val(TextBox64.Text) - Val(TextBox65.Text)
+    End Sub
+
+    Private Sub TextBox66_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox66.TextChanged
+        Label77.Text = "$" & Val(TextBox53.Text) + Val(TextBox54.Text) + Val(TextBox66.Text)
+    End Sub
 End Class
