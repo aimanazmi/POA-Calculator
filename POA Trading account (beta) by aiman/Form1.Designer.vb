@@ -140,6 +140,14 @@ Partial Class Form1
         Me.Label44 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label98 = New System.Windows.Forms.Label()
+        Me.Label97 = New System.Windows.Forms.Label()
+        Me.TextBox71 = New System.Windows.Forms.TextBox()
+        Me.Label96 = New System.Windows.Forms.Label()
+        Me.TextBox70 = New System.Windows.Forms.TextBox()
+        Me.TextBox69 = New System.Windows.Forms.TextBox()
+        Me.Label95 = New System.Windows.Forms.Label()
+        Me.Label94 = New System.Windows.Forms.Label()
         Me.TextBox68 = New System.Windows.Forms.TextBox()
         Me.Label93 = New System.Windows.Forms.Label()
         Me.TextBox67 = New System.Windows.Forms.TextBox()
@@ -197,12 +205,6 @@ Partial Class Form1
         Me.TextBox48 = New System.Windows.Forms.TextBox()
         Me.TextBox62 = New System.Windows.Forms.TextBox()
         Me.TextBox63 = New System.Windows.Forms.TextBox()
-        Me.Label94 = New System.Windows.Forms.Label()
-        Me.Label95 = New System.Windows.Forms.Label()
-        Me.TextBox69 = New System.Windows.Forms.TextBox()
-        Me.TextBox70 = New System.Windows.Forms.TextBox()
-        Me.Label96 = New System.Windows.Forms.Label()
-        Me.TextBox71 = New System.Windows.Forms.TextBox()
         Me.TextBox72 = New System.Windows.Forms.TextBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -1305,6 +1307,8 @@ Partial Class Form1
         '
         'Panel2
         '
+        Me.Panel2.Controls.Add(Me.Label98)
+        Me.Panel2.Controls.Add(Me.Label97)
         Me.Panel2.Controls.Add(Me.TextBox71)
         Me.Panel2.Controls.Add(Me.Label96)
         Me.Panel2.Controls.Add(Me.TextBox70)
@@ -1356,6 +1360,72 @@ Partial Class Form1
         Me.Panel2.Size = New System.Drawing.Size(499, 491)
         Me.Panel2.TabIndex = 0
         '
+        'Label98
+        '
+        Me.Label98.AutoSize = True
+        Me.Label98.Location = New System.Drawing.Point(392, 422)
+        Me.Label98.Name = "Label98"
+        Me.Label98.Size = New System.Drawing.Size(19, 13)
+        Me.Label98.TabIndex = 72
+        Me.Label98.Text = "$0"
+        '
+        'Label97
+        '
+        Me.Label97.AutoSize = True
+        Me.Label97.Location = New System.Drawing.Point(283, 422)
+        Me.Label97.Name = "Label97"
+        Me.Label97.Size = New System.Drawing.Size(25, 13)
+        Me.Label97.TabIndex = 71
+        Me.Label97.Text = "($0)"
+        '
+        'TextBox71
+        '
+        Me.TextBox71.Location = New System.Drawing.Point(177, 415)
+        Me.TextBox71.Name = "TextBox71"
+        Me.TextBox71.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox71.TabIndex = 70
+        '
+        'Label96
+        '
+        Me.Label96.AutoSize = True
+        Me.Label96.Location = New System.Drawing.Point(8, 414)
+        Me.Label96.Name = "Label96"
+        Me.Label96.Size = New System.Drawing.Size(77, 13)
+        Me.Label96.TabIndex = 69
+        Me.Label96.Text = "Bank overdraft"
+        '
+        'TextBox70
+        '
+        Me.TextBox70.Location = New System.Drawing.Point(177, 391)
+        Me.TextBox70.Name = "TextBox70"
+        Me.TextBox70.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox70.TabIndex = 68
+        '
+        'TextBox69
+        '
+        Me.TextBox69.Location = New System.Drawing.Point(177, 368)
+        Me.TextBox69.Name = "TextBox69"
+        Me.TextBox69.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox69.TabIndex = 67
+        '
+        'Label95
+        '
+        Me.Label95.AutoSize = True
+        Me.Label95.Location = New System.Drawing.Point(8, 390)
+        Me.Label95.Name = "Label95"
+        Me.Label95.Size = New System.Drawing.Size(80, 13)
+        Me.Label95.TabIndex = 66
+        Me.Label95.Text = "Income prepaid"
+        '
+        'Label94
+        '
+        Me.Label94.AutoSize = True
+        Me.Label94.Location = New System.Drawing.Point(8, 367)
+        Me.Label94.Name = "Label94"
+        Me.Label94.Size = New System.Drawing.Size(84, 13)
+        Me.Label94.TabIndex = 65
+        Me.Label94.Text = "Expenses owing"
+        '
         'TextBox68
         '
         Me.TextBox68.Location = New System.Drawing.Point(177, 346)
@@ -1366,7 +1436,7 @@ Partial Class Form1
         'Label93
         '
         Me.Label93.AutoSize = True
-        Me.Label93.Location = New System.Drawing.Point(14, 349)
+        Me.Label93.Location = New System.Drawing.Point(8, 345)
         Me.Label93.Name = "Label93"
         Me.Label93.Size = New System.Drawing.Size(78, 13)
         Me.Label93.TabIndex = 63
@@ -1382,7 +1452,7 @@ Partial Class Form1
         'Label92
         '
         Me.Label92.AutoSize = True
-        Me.Label92.Location = New System.Drawing.Point(14, 326)
+        Me.Label92.Location = New System.Drawing.Point(8, 322)
         Me.Label92.Name = "Label92"
         Me.Label92.Size = New System.Drawing.Size(48, 13)
         Me.Label92.TabIndex = 61
@@ -1840,54 +1910,6 @@ Partial Class Form1
         Me.TextBox63.Size = New System.Drawing.Size(100, 20)
         Me.TextBox63.TabIndex = 50
         '
-        'Label94
-        '
-        Me.Label94.AutoSize = True
-        Me.Label94.Location = New System.Drawing.Point(14, 371)
-        Me.Label94.Name = "Label94"
-        Me.Label94.Size = New System.Drawing.Size(84, 13)
-        Me.Label94.TabIndex = 65
-        Me.Label94.Text = "Expenses owing"
-        '
-        'Label95
-        '
-        Me.Label95.AutoSize = True
-        Me.Label95.Location = New System.Drawing.Point(14, 394)
-        Me.Label95.Name = "Label95"
-        Me.Label95.Size = New System.Drawing.Size(80, 13)
-        Me.Label95.TabIndex = 66
-        Me.Label95.Text = "Income prepaid"
-        '
-        'TextBox69
-        '
-        Me.TextBox69.Location = New System.Drawing.Point(177, 368)
-        Me.TextBox69.Name = "TextBox69"
-        Me.TextBox69.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox69.TabIndex = 67
-        '
-        'TextBox70
-        '
-        Me.TextBox70.Location = New System.Drawing.Point(177, 391)
-        Me.TextBox70.Name = "TextBox70"
-        Me.TextBox70.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox70.TabIndex = 68
-        '
-        'Label96
-        '
-        Me.Label96.AutoSize = True
-        Me.Label96.Location = New System.Drawing.Point(14, 418)
-        Me.Label96.Name = "Label96"
-        Me.Label96.Size = New System.Drawing.Size(77, 13)
-        Me.Label96.TabIndex = 69
-        Me.Label96.Text = "Bank overdraft"
-        '
-        'TextBox71
-        '
-        Me.TextBox71.Location = New System.Drawing.Point(177, 415)
-        Me.TextBox71.Name = "TextBox71"
-        Me.TextBox71.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox71.TabIndex = 70
-        '
         'TextBox72
         '
         Me.TextBox72.Location = New System.Drawing.Point(528, 288)
@@ -1899,7 +1921,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(521, 456)
+        Me.ClientSize = New System.Drawing.Size(520, 456)
         Me.Controls.Add(Me.TextBox72)
         Me.Controls.Add(Me.TextBox63)
         Me.Controls.Add(Me.TextBox62)
@@ -2115,4 +2137,6 @@ Partial Class Form1
     Friend WithEvents Label95 As System.Windows.Forms.Label
     Friend WithEvents Label94 As System.Windows.Forms.Label
     Friend WithEvents TextBox72 As System.Windows.Forms.TextBox
+    Friend WithEvents Label97 As Label
+    Friend WithEvents Label98 As Label
 End Class
