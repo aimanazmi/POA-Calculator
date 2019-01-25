@@ -25,5 +25,3 @@ C:\Users\Dell\Documents\GitHub\POA-Calculator\POA Trading account (beta) by aima
 C:\Users\Dell\Documents\GitHub\POA-Calculator\POA Trading account (beta) by aiman\obj\x86\Debug\POA_Trading_account__beta__by_aiman.Form1.resources
 C:\Users\Dell\Documents\GitHub\POA-Calculator\POA Trading account (beta) by aiman\obj\x86\Debug\POA_Trading_account__beta__by_aiman.Resources.resources
 C:\Users\Dell\Documents\GitHub\POA-Calculator\POA Trading account (beta) by aiman\obj\x86\Debug\POA Trading account (beta) by aiman.vbproj.GenerateResource.Cache
-C:\Users\Dell\Documents\GitHub\POA-Calculator\POA Trading account (beta) by aiman\obj\x86\Debug\POA Trading account (beta) by aiman.vbprojAssemblyReference.cache
-C:\Users\Dell\Documents\GitHub\POA-Calculator\POA Trading account (beta) by aiman\obj\x86\Debug\POA Trading account (beta) by aiman.vbproj.CoreCompileInputs.cache
