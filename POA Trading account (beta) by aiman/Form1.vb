@@ -112,6 +112,8 @@
         TextBox15.Text = ""
         TextBox16.Text = ""
         TextBox17.Text = ""
+        TextBox47.Text = ""
+        Label16.Text = "$0"
     End Sub
 
     Private Sub TextBox22_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox22.TextChanged
